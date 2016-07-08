@@ -1,3 +1,5 @@
+execute pathogen#infect()
+
 set smartindent
 set tabstop=2
 set softtabstop=2
