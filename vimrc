@@ -25,3 +25,10 @@ noremap <Up> <Nop>
 noremap <Down> <Nop>
 noremap <Left> <Nop>
 noremap <Right> <Nop>
+
+
+" Typescript settings:
+
+let g:typescript_indent_disable = 1
+" Assume we are in tsconfig.json directory
+autocmd FileType typescript :set makeprg=tsc\ -p\ .
